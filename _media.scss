@@ -1,0 +1,119 @@
+@import "./variables";
+
+
+@media screen and (min-width: 768px) {
+
+.container {
+    background-color: $lightgrey;
+   
+    main {
+        width: 60em;
+        margin: 0 auto;
+    }
+    
+    // header part
+    header {
+        position: relative;
+        display: flex;
+        height: 40em;
+        overflow: hidden;
+
+        img {
+            width: 70%;
+        }
+
+        .img_box {
+            display: flex;
+            justify-content: flex-end;
+
+        }
+
+        .page_header {
+            padding: 3em;
+        }
+        .page_header2 {
+            min-width: 30em;
+
+        }
+    }
+
+
+    // nav menu
+    nav {
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        background-color: rgb(251, 251, 251);
+    }
+
+    ul {
+        padding: 0em 10em;
+        height: 3em;
+        flex-wrap: nowrap;
+        align-items: center;
+    
+        a {
+            font-size: .8rem;
+        }
+    }
+
+}
+
+.section_info {
+
+    >:nth-child(1){
+        height: 40em;
+
+        .content_item {
+            display: flex;
+
+            .item_box {
+                flex: 1 0 50%;
+        }
+            p {
+                padding: 2em;
+                line-height: 2em;
+                text-align: start;
+            }
+        }
+
+    .join_button {
+        visibility: visible;
+        box-shadow: 2px 2px 4px rgb(106, 106, 106);
+    }
+
+    .card_container {
+        margin-top: 5em;
+        display: flex;
+        flex-direction: row;
+
+        .card_box {
+            height: 20em;
+        }
+
+        .box_text {
+            top: 8.5em;
+        }
+
+        p {
+            font-size: .7rem;
+        }
+
+        .box_img {
+            height: 10em;
+        }
+
+        img {
+            width: 50%;
+        }
+        }
+    }
+
+    >:nth-child(2){
+        height: 42em;
+        padding: 15em 10em;
+    }
+
+
+}
+}

@@ -1,0 +1,61 @@
+@use "./header";
+@use "./menu";
+@use "./cards";
+@use "./media";
+@use "./section";
+@import "./variables";
+
+*{ 
+    box-sizing: border-box;
+ }
+
+h1,
+h2,
+h3 {
+    font-family: $headings;
+    font-weight: 900;
+}
+
+h1 {
+    font-size: 3rem;
+    color: rgb(241, 241, 241);
+}
+
+h2 {
+    font-size: 1.8rem;
+
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+p {
+    line-height: 1.4rem;
+}
+
+p,
+button,
+li a {
+    font-family: $paragraph;
+    font-size: 1rem;
+}
+
+.join_button {
+    border-radius: 30em;
+    width: 10em;
+    margin-top: 3em;
+    padding: 1.2em 0em;
+    box-shadow: 2px 2px 4px $grey;
+    border: none;
+    font-weight: bold;
+    font-size: .8rem;
+}
+
+
+
+
+
+
+
+

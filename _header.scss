@@ -1,0 +1,49 @@
+@import "./variables";
+
+img {
+    width: 100%;
+}
+
+.page_header {
+    background-color: $blue;
+    display: flex;
+    flex-direction: column;
+    padding: 3em 1em 0 1em;
+
+    h1 {
+        padding-bottom: 1em;
+        color: rgb(18, 18, 18);
+    }
+
+    img {
+        padding: 4em .5em 0 .5em;
+        display: flex;
+    }
+
+    span {
+        color: rgb(255, 255, 255);
+    }
+}
+
+.learn_more {
+    background-color: $orange;
+}
+
+.join_today {
+    background-color: $yellow;
+}
+
+.learn_more,
+.join_today {
+   
+    h2 {
+        color: white;
+        margin: 1rem;
+    }
+
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    height: 20em;
+}

@@ -1,0 +1,23 @@
+@import "./variables";
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+
+    li {
+        padding: 2em;
+        flex: 1 1 50%;
+        display: flex;
+        justify-content: center;
+        color: $grey;
+    }
+
+    li:hover {
+        background-color: $lightgrey;
+        color: black;
+    }
+
+    a {
+        all: unset;
+    }
+}
